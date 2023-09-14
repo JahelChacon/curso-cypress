@@ -1,0 +1,21 @@
+{
+  "name": "cypress_ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:ui": "cypress open",
+    "test:headless": "cypress run",
+    "test:headless:chrome": "cypress run --browser chrome",
+    "test:headless:firefox": "cypress run --browser firefox",
+    "test:headless:chrome:asserts": "cypress run --browser chrome --spec cypress/e2e/3-Curso-Cypress/asserts.cy.js",
+    "test:headless:firefox:asserts": "cypress run --browser firefox --spec cypress/e2e/3-Curso-Cypress/hooks.cy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.7.0",
+    "prettier": "^2.8.4"
+  }
+}
